@@ -1,7 +1,7 @@
 #2) Input 2 strings concatinate them and store in another variable. then perform generally used string methods on it like
 
-str1="Happy"
-str2="Birthday"
+str1=input("Enter 1st string:")
+str2=input("Enter 2nd string:")
 concat=str1+" "+str2
 print(concat)
 
