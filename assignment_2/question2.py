@@ -1,25 +1,47 @@
-#2) Write a function for basic math operations like add, multiply, substract, divide and use this in your program, take 2 number in2put from user.
+#2) Input 2 strings concatinate them and store in another variable. then perform generally used string methods on it like
 
-def calculator():
-    i=(int(input("Enter 1 for addition\nEnter 2 for subtraction\nEnter 3 for multiplication\nEnter 4 for division\nEnter input:")))
+str1=input("Enter 1st string:")
+str2=input("Enter 2nd string:")
+concat=str1+" "+str2
+print(concat)
 
-    num1=(int(input("Enter 1st number:")))
-    num2=(int(input("Enter 2nd number:")))
-    if (i==1):
-        print("Sum=",num1+num2)
-    elif(i==2):
-        print("Difference=",num1-num2)
-    elif(i==3):
-        print("Product=",num1*num2)
-    elif(i==4):
-        print("Quotient=",num1/num2)
-    else:
-        print("Invalid input.")            
+#String Methods
 
-calculator()
-          
+#lower()
+print(concat.lower())
 
-    
+#upper()
+print(concat.upper())
 
+#title()
+print(concat.title())
 
-    
+#swapcase()
+print(concat.swapcase())
+
+#capitalize()
+print(concat.capitalize())
+
+#center()
+print(concat.center(120))
+
+#count()
+print(concat.count("a"))
+
+#endswith()
+concat.endswith("a")
+
+#find()
+print(concat.find("y"))
+
+#isalnum()
+print(concat.isalnum())
+
+#isdigit()
+print(concat.isdigit())
+
+#isnumeric()
+print(concat.isnumeric())
+
+#replace()
+print(concat.replace("a","A"))
